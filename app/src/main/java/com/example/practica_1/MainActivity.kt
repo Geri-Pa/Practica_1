@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
                     Button(
-                        Modifier.padding(horizontal = 12.dp, vertical = 8.dp)
+                        Modifier.padding(horizontal = 100.dp, vertical = 50.dp)
 
                     )
                 }

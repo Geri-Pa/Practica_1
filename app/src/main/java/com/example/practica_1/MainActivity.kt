@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import com.example.practica_1.ui.theme.Practica_1Theme
 import org.w3c.dom.Text
 
@@ -29,6 +30,8 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
                     Button(
+                        Modifier.padding(horizontal = 12.dp, vertical = 8.dp)
+
                     )
                 }
             }

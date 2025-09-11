@@ -42,10 +42,27 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hola $name "
+    )
+    Text(
+        text = "Hola $name "
+    )
+    Text(
+        text = "Hola $name "
+    )
+    Text(
+        text = "Hola $name "
+    )
+    Text(
+        text = "Hola $name "
+    )
 }
 @Composable
 fun Button(modifier: Modifier = Modifier){
-
+    Text(
+        text = "Tilín"
+    )
 }
 
 @Preview(showBackground = true)
